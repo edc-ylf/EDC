@@ -24,13 +24,21 @@
                             <span>统计分析</span>
                                 <ul>
                                     <router-link tag="li" to="/Menu/zonglantongji">总览统计</router-link>
-                                     <router-link tag="li" to="/Menu/gerenziliao">客服统计</router-link>
-                                     <router-link tag="li" to="/Menu/message">留言统计</router-link>
-                                     <router-link tag="li" to="/Menu/rizhi">机器人统计</router-link>
+                                     <router-link tag="li" to="/Menu/kefutongji">客服统计</router-link>
+                                     <router-link tag="li" to="/Menu/liuyantongji">留言统计</router-link>
+                                     <router-link tag="li" to="/Menu/jiqirentongji">机器人统计</router-link>
                                 </ul>
                         </div>
                     </el-tab-pane>
-                    <el-tab-pane label="客服">客服</el-tab-pane>
+                    <el-tab-pane label="客服">
+                        <div class="v1">
+                            <span>客服管理</span>
+                                <ul>
+                                    <router-link tag="li" to="/Menu/kefuliebiao">客服列表</router-link>
+                                     <router-link tag="li" to="/Menu/kefuxiaozu">客服小组</router-link>
+                                </ul>
+                        </div>
+                        </el-tab-pane>
                     <el-tab-pane label="历史">历史</el-tab-pane>
                     <el-tab-pane label="客户">客户</el-tab-pane>
                     <el-tab-pane label="公告">公告</el-tab-pane>

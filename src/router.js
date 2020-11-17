@@ -37,7 +37,23 @@ export default new Router({
       {
         path: '/Menu/zonglantongji',
       component: () => import(/* webpackChunkName: "about" */ './components/zonglantongji.vue')
+      }, {
+        path: '/Menu/kefutongji',
+      component: () => import(/* webpackChunkName: "about" */ './components/kefutongji.vue')
+      },{
+        path: '/Menu/liuyantongji',
+      component: () => import(/* webpackChunkName: "about" */ './components/liuyantongji.vue')
+      }, {
+        path: '/Menu/jiqirentongji',
+      component: () => import(/* webpackChunkName: "about" */ './components/jiqirentongji.vue')
+      }, {
+        path: '/Menu/kefuliebiao',
+      component: () => import(/* webpackChunkName: "about" */ './components/kefuliebiao.vue')
+      }, {
+        path: '/Menu/kefuxiaozu',
+      component: () => import(/* webpackChunkName: "about" */ './components/kefuxiaozu.vue')
       }
+
 
       ]}
   ]
