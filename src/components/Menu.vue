@@ -30,7 +30,7 @@
                                 </ul>
                         </div>
                     </el-tab-pane>
-                    <el-tab-pane label="客服">
+                    <el-tab-pane label="客服" style="margin-left:-10px;">
                         <div class="v1">
                             <span>客服管理</span>
                                 <ul>
@@ -39,13 +39,27 @@
                                 </ul>
                         </div>
                         </el-tab-pane>
-                    <el-tab-pane label="历史">历史</el-tab-pane>
-                    <el-tab-pane label="客户">客户</el-tab-pane>
-                    <el-tab-pane label="公告">公告</el-tab-pane>
-                    <el-tab-pane label="知识">知识</el-tab-pane>
-                    <el-tab-pane label="对话">对话</el-tab-pane>
-                    <el-tab-pane label="权限">权限</el-tab-pane>
-                    <el-tab-pane label="设置">设置</el-tab-pane>
+                    <el-tab-pane label="历史" style="margin-left:-10px;">
+                       <div class="v1">
+                            <span>历史管理</span>
+                                <ul>
+                                     <router-link tag="li" to="/Menu/lishiliebiao">历史列表</router-link>
+                                </ul>
+                        </div>
+                    </el-tab-pane>
+                    <el-tab-pane label="客户" style="margin-left:-10px;">
+                        <div class="v1">
+                            <span>客户管理</span>
+                                <ul>
+                                     <router-link tag="li" to="/Menu/kehuliebiao">客户列表</router-link>
+                                </ul>
+                        </div>
+                    </el-tab-pane>
+                    <el-tab-pane label="公告" style="margin-left:-10px;">公告</el-tab-pane>
+                    <el-tab-pane label="知识" style="margin-left:-10px;">知识</el-tab-pane>
+                    <el-tab-pane label="对话" style="margin-left:-10px;">对话</el-tab-pane>
+                    <el-tab-pane label="权限" style="margin-left:-10px;">权限</el-tab-pane>
+                    <el-tab-pane label="设置" style="margin-left:-10px;">设置</el-tab-pane>
             </el-tabs>
                 </div>
                 <router-view></router-view>

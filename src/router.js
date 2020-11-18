@@ -53,6 +53,13 @@ export default new Router({
         path: '/Menu/kefuxiaozu',
       component: () => import(/* webpackChunkName: "about" */ './components/kefuxiaozu.vue')
       }
+      ,{
+        path: '/Menu/lishiliebiao',
+      component: () => import(/* webpackChunkName: "about" */ './components/lishiliebiao.vue')
+      },{
+        path: '/Menu/kehuliebiao',
+      component: () => import(/* webpackChunkName: "about" */ './components/kehuliebiao.vue')
+      }
 
 
       ]}
